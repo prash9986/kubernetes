@@ -1,0 +1,8 @@
+minikube ip --- to get he ip where the application is hosted
+minikube start -- to start the minikube 
+minikube status -- to check the status of the minikube
+kubectl get pods -- to check the running pods 
+kubectl get service -- to check the service
+kubectl get deployment -- to check the deployed application
+kubectl apply -f client-pod.yaml to apply the pod
+kubectl apply -f client-deployment.yaml to apply the deployment
