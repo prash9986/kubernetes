@@ -4,5 +4,8 @@ minikube status -- to check the status of the minikube
 kubectl get pods -- to check the running pods 
 kubectl get service -- to check the service
 kubectl get deployment -- to check the deployed application
-kubectl apply -f client-pod.yaml to apply the pod
-kubectl apply -f client-deployment.yaml to apply the deployment
+kubectl apply -f client-pod.yaml --to apply the pod
+kubectl apply -f client-deployment.yaml -- to apply the deployment
+kubectl get pods -o wide -- to get more details along with ip address
+kubectl describe pods -- to get the more details of the pods
+kubectl get deployments -- to check the status of the deployments
