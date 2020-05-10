@@ -9,3 +9,5 @@ kubectl apply -f client-deployment.yaml -- to apply the deployment
 kubectl get pods -o wide -- to get more details along with ip address
 kubectl describe pods -- to get the more details of the pods
 kubectl get deployments -- to check the status of the deployments
+kubectl set image <object type> / <object name> <container name> = <new image to use> to update image to the deployement
+eg: kubectl set image deployment/client-deployment=prashaant9986/multi-client:v5
